@@ -100,8 +100,20 @@ awards:
       Achieved 612 points in CET-4 and 585 points in CET-6, demonstrating strong English listening, speaking, reading and writing abilities.
 ---
 
-I am an undergraduate student majoring in Statistics and Data Science at Nankai University, focusing on full-stack development and AI application development. During my internships at JiOu Cloud and Dify open source platform, I was deeply involved in the development and optimization of large language model productization, RAG intelligent Q&A systems, and AI Agents.
+**Who I am:**
+I am an undergraduate student majoring in Statistics and Data Science at Nankai University, focusing on full-stack development and AI application development. In my graduate studies, I may pursue agentic AI or blockchain technology.
 
-I am passionate about building innovative technical solutions, specializing in front-end React ecosystem, back-end Python asynchronous programming, and full-stack development of AI applications. Through projects like PeerPortal study abroad platform and NKUWiki knowledge graph, I have accumulated rich experience in full-stack development and AI system construction.
+**Some of my thoughts:**
+The essence of a startup is to innovatively solve the needs of a niche market. The scope of human social activities is finite; regardless of how productivity levels iterate, the total number of need-types remains relatively constant. What grows exponentially are the methods to solve them. But no matter how fancy or complex a solution appears, its core purpose must be to solve the problem.
 
-Currently exploring the deep integration of AI with traditional applications, committed to creating smarter and more efficient user experiences.
+All good products or solutions must be: **Intuitive + Transferable + Interactive + Smart**.
+
+**Intuitive:** You can understand how it works at a glance.
+
+**Transferable:** It is easy to migrate from previous solutions.
+
+**Interactive:** It possesses interactive attributes (since humans are social animals).
+
+**Smart:** It doesn't require significant mental effort to use.
+
+My blueprint for the future of software is that it can evolve into any software a human asks it to become through natural language.
