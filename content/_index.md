@@ -16,7 +16,7 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: Download Resume
         url: uploads/resume.pdf
     design:
       banner:
@@ -37,16 +37,8 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: admin
   - block: awards
     content:
       title: Awards
-      username: admin
-  - block: languages
-    content:
-      title: Languages
       username: admin
 ---

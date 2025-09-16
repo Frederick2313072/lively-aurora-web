@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo résumé theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'Nankai University'
+    description: 'Yuan Xu - Undergraduate student in Statistics and Data Science at Nankai University, Full-Stack Developer focused on AI application development and RAG system construction.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Yuan Xu. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

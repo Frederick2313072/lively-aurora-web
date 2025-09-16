@@ -1,0 +1,140 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+% 删除geometry包重复加载，因为resume.cls已经加载了
+% \usepackage{enumitem} % 用于调整列表间距 - 暂时禁用以避免冲突
+% % 设置列表格式
+% \setlist[itemize]{leftmargin=*,topsep=2pt,itemsep=1pt,parsep=0pt}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{徐媛}
+
+\basicInfo{
+  \email{2313072@mail.nankai.edu.cn} 
+  \phone{(+86) 18918007833} 
+  \linkedin[Github]{https://github.com/Frederick2313072}
+  \location{天津，中国}
+}
+
+\vspace{-2ex}
+\section{教育背景}
+\datedsubsection{\textbf{南开大学}, 天津}{2022 -- 2026}
+\textit{本科}\ 统计与数据科学
+
+\vspace{-1.8ex}
+\section{实习经历}
+\datedsubsection{\textbf{极欧云 | AlAgent 全栈开发实习生}} {2025.04 -- 2025.07}
+
+\textbf{项目描述：}
+
+参与公司核心产品 SalesAgent 与 RAG 智能问答系统的功能开发与性能优化，项目旨在构建具备上下文记忆、多轮对话能力的企业级智能助手，服务于销售自动化、客户支持场景。
+
+\textbf{个人工作：}
+\begin{itemize}
+    \item 建立了SalesAgent的综合回归测试框架，开发自动化脚本覆盖核心工作流程和边缘情况，成功识别并解决了8个关键缺陷。
+    \item 通过实验三种检索机制优化了Memory模块——带时间权重的嵌入、基于查询的聚类和动态摘要，在长对话一致性上提升了18\%。
+    \item 通过重新设计文档分块策略（语义+结构视角）并从稀疏检索升级到混合检索（BM25+向量融合）协助增强RAG（检索增强生成）系统，问答准确率提升了15\%。
+    \item 解决了多轮对话中的上下文漂移和信息冗余等挑战，平衡准确率、响应速度和内存使用以确定最优检索策略。
+
+    \item 通过构建高质量分块同时保持语义完整性，提升了长文档RAG模块的信息召回率。
+
+\end{itemize}
+
+\datedsubsection{\textbf{Dify开源平台 | LLM应用与RAG生态实习工程师}} {2025.04 -- 2025.07}
+
+\textbf{项目描述：}
+
+参与 Dify 开源平台的插件与数据接入生态建设，围绕 Agent 工具链、RAG 数据管道与图谱检索能力迭代，提升企业级场景下的可用性与扩展性。
+
+\textbf{个人工作：}
+\begin{itemize}
+    \item 为v2ex、linuxdo和GitHub开发并发布了社区插件，标准化查询参数和认证，支持关键词搜索、主题聚合和速率限制以进行实时Agent检索和摘要。
+    \item 设计并实现了Azure Blob和OneDrive数据源集成与增量同步，支持OAuth/密钥双通道认证、目录和权限映射、分块上传和可恢复传输，实现向量化摄取。
+    \item 维护和优化了Pinecone向量检索插件，支持批量写入、命名空间、元数据过滤、并发和重试策略，通过增强分块和去重提升召回质量和延迟稳定性。
+    \item 使用Neo4j工程化实体关系建模和Cypher查询范式，探索Graph-RAG解决方案以基于关系约束进行证据检索和答案生成。
+
+\end{itemize}
+
+\vspace{-1.8ex}
+\section{项目经历}
+\datedsubsection{\textbf{PeerPortal - 去中心化留学信息平台}} {2025年7月 -- 至今}
+\role{全栈开发工程师}{\href{https://github.com/PeerPortal/web}{Code}}
+
+\textbf{项目描述：}
+一个集成了智能对话、实时消息、论坛交流、文件管理和精准匹配的去中心化留学双边信息平台。项目采用现代化全栈架构，为申请者和引路人提供全方位、个性化的留学申请指导服务，打破传统信息壁垒。
+
+\textbf{技术架构：}
+\begin{itemize}
+    \item \textbf{前端：}基于 Next.js 15 + React 19 + TypeScript 构建现代化SPA，采用 Tailwind CSS + Radix UI 组件库实现响应式设计，使用 Zustand 进行状态管理。
+    \item \textbf{后端：}采用 FastAPI + Python 构建高性能异步API服务，集成 Supabase(PostgreSQL) 作为主数据库，支持 WebSocket 实时通信。
+    \item \textbf{基础设施：}Docker 容器化部署，支持文件上传存储、用户认证、数据库优化等企业级功能。
+\end{itemize}
+
+\textbf{个人工作与职责：}
+\begin{itemize}
+    \item 独立设计了全栈系统架构，构建了包含9个核心业务模块的综合平台，涵盖用户管理、论坛、实时消息、文件上传和智能匹配。
+    \item 使用Next.js 15 App Router开发了现代化SPA前端，实现用户认证、个人资料管理、论坛讨论和实时聊天，实现了60\%的组件复用率。
+    \item 使用FastAPI构建了包含50+个RESTful API端点的强大后端，涵盖用户、论坛、消息和文件上传功能，API响应时间保持在100ms以内。
+    \item 设计了21表数据库架构，通过索引策略和查询优化将数据库响应时间提升30\%。
+    \item 实现了基于WebSocket的实时通信系统，支持一对一导师-学生聊天，消息状态管理和在线状态，延迟在50ms以内。
+    \item 设计了三层角色-权限-资源模型，通过JWT无状态认证和中间件实现细粒度API访问控制，确保数据安全和隐私。
+    \item 支持1000+并发连接，通过异步编程、连接池管理和消息队列实现99.9\%消息投递成功率。
+
+\end{itemize}
+
+\datedsubsection{\textbf{NKUWiki知识图谱构建（LLM驱动的校园问答）}} {2024年10月 -- 至今}
+\role{ETL架构师 \& 安全工程师}{\href{https://github.com/NKU-WIKI/nkuwiki}{Code}}
+
+\textbf{项目描述：}
+一个基于RAG检索增强生成的南开大学校园知识共享平台，采用"开源·共治·普惠"理念构建南开知识共同体。项目处理数据量10GB+，覆盖小红书、知乎、校园集市3000+帖子，数据清洗准确率96\%，结构化处理效率提升60\%。基于LangChain优化RAG问答，构建50万+token知识库，HuggingFace嵌入模型检索召回率91\%，问答响应时间优化至1.2s，准确率达到82\%。
+
+\textbf{个人工作与职责：}
+\begin{itemize}
+    \item 设计并实现了支持异构数据源的分布式爬虫系统，利用Playwright + Selenium进行现代SPA和传统网页抓取，复杂DOM处理性能提升40\%。
+    \item 对校园市场进行深度逆向工程分析，破解API签名算法（HMAC-MD5、时间戳验证），逆向JavaScript加密算法实现动态签名生成，数据获取成功率达95\%。。
+    \item 实现动态User-Agent轮换、IP代理池管理和请求频率控制，通过浏览器指纹混淆实现99.5\%爬虫正常运行时间和每日10万条记录的数据收集。
+    \item 设计异步ETL流水线集成Qdrant向量数据库、Elasticsearch和MySQL，实现增量数据同步，处理延迟在100ms以内。
+\end{itemize}
+
+\vspace{-2ex}
+\section{专业技能}
+\textbf{前端开发}
+    \begin{itemize}
+        \item 熟悉现代前端技术栈：React 19、Next.js 15、TypeScript 5，具备构建大型SPA应用的能力。
+        \item 熟练使用UI框架：Tailwind CSS、Radix UI、MUI，擅长响应式设计和基于组件的开发。
+        \item 掌握状态管理：Zustand、Redux；前端工程工具：Webpack、Vite、Turbopack
+        \item 熟悉 Docker 容器化技术及相关生态，能够独立完成服务的打包、部署与维护。
+    \end{itemize}
+    
+\textbf{后端开发}
+    \begin{itemize}
+        \item 掌握 Python，运用 FastAPI 构建高性能、异步化的 RESTful API 及 WebSocket 服务。
+        \item 掌握数据库技术：PostgreSQL、MySQL，具备数据库设计、查询优化和索引策略制定能力。
+        \item 熟悉云服务平台：Supabase、Vercel，以及 Docker 容器化技术和CI/CD部署流程。
+        \item 了解 Django、Spring Boot 等其他后端框架，具备跨技术栈开发能力。
+    \end{itemize}
+
+
+
+\textbf{AI应用开发}
+    \begin{itemize}
+        \item 掌握 LangChain 框架，具备独立设计与开发 RAG 检索增强生成及 Agent 应用的能力。
+        \item 熟悉 ReAct, Self-ask 等 agent 思维框架，理解 Agent 状态管理、工具调用与多模态交互的核心机制。
+        \item 拥有 Prompt Engineering 实践经验，擅长设计、优化与评估提示以激发模型最佳性能。
+        \item 了解模型Fine-tuning流程，有使用 ModelScope(SWIFT 框架进行lora 微调) 等平台进行模型训练的经验。
+        \item 具备 AI 应用的前后端集成经验，包括流式响应、实时交互等技术实现。
+    \end{itemize}
+
+
+
+\end{document}

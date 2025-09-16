@@ -1,175 +1,107 @@
 ---
 # Display name
-title: 吳健雄
+title: 徐媛
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Yuan Xu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Pronouns (optional)
-pronouns: she/her
+first_name: Yuan
+last_name: Xu
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Full-Stack Developer | AI Application Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Nankai University
+    url: https://www.nankai.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:2313072@mail.nankai.edu.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://github.com/Frederick2313072
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor of Statistics and Data Science
+    institution: Nankai University
+    date_start: 2022-09-01
+    date_end: 2026-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Majoring in Statistics and Data Science, focusing on machine learning, data mining, and statistical modeling.
+      
+      Relevant courses include:
+      - Probability Theory and Mathematical Statistics
+      - Machine Learning and Data Mining
+      - Database Systems and Data Warehousing
+      - Statistical Computing and Software Applications
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: AlAgent Full-Stack Development Intern
+    company_name: JiOu Cloud
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2025-04-01
+    date_end: 2025-07-31
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Participated in the development and optimization of the company's core products SalesAgent and RAG intelligent Q&A system:
+      - Responsible for SalesAgent regression testing system construction, wrote automated test scripts, successfully discovered and located 8 critical defects
+      - Participated in Memory module optimization, experimented and compared various memory retrieval mechanisms, improved long conversation context consistency by 18%
+      - Assisted in tuning RAG system, refactored document chunking strategy, improved Q&A accuracy by 15%
+  - position: LLM Application & RAG Ecosystem Intern Engineer
+    company_name: Dify Open Source Platform
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2025-04-01
+    date_end: 2025-07-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Participated in Dify open source platform plugin and data integration ecosystem construction:
+      - Implemented and launched information source plugins for v2ex, linuxdo, GitHub, supporting keyword search, topic aggregation and rate control
+      - Designed and implemented Azure Blob, OneDrive data source integration and incremental synchronization, completed OAuth/key dual-channel authentication
+      - Maintained and optimized Pinecone vector retrieval plugin, supporting batch writing, namespace and metadata filtering
+      - Designed entity-relationship modeling and Cypher query paradigm based on Neo4j, explored Graph-RAG solutions
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: brands/coursera
+  - title: Kaggle USPTO - Explainable AI for Patent Professionals Silver Medal
+    url: https://www.kaggle.com/competitions/uspto-explainable-ai
+    date: '2024-07-01'
+    awarder: Kaggle
+    icon: brands/kaggle
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: brands/edx
+      Achieved silver medal in Kaggle patent AI explainability competition, which focused on building explainable AI systems for patent professionals, enhancing transparency and credibility of AI in patent analysis.
+  - title: CMC National College Mathematics Competition Third Prize
+    url: ''
+    date: '2024-12-01'
+    awarder: Chinese Mathematical Society
+    icon: academic-cap
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: brands/datacamp
+      Awarded third prize in the National College Mathematics Competition, demonstrating solid mathematical foundation and problem-solving abilities.
+  - title: CET-4 Score 612, CET-6 Score 585
+    url: ''
+    date: '2024-12-01'
+    awarder: National College English Test Committee
+    icon: language
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Achieved 612 points in CET-4 and 585 points in CET-6, demonstrating strong English listening, speaking, reading and writing abilities.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am an undergraduate student majoring in Statistics and Data Science at Nankai University, focusing on full-stack development and AI application development. During my internships at JiOu Cloud and Dify open source platform, I was deeply involved in the development and optimization of large language model productization, RAG intelligent Q&A systems, and AI Agents.
+
+I am passionate about building innovative technical solutions, specializing in front-end React ecosystem, back-end Python asynchronous programming, and full-stack development of AI applications. Through projects like PeerPortal study abroad platform and NKUWiki knowledge graph, I have accumulated rich experience in full-stack development and AI system construction.
+
+Currently exploring the deep integration of AI with traditional applications, committed to creating smarter and more efficient user experiences.
