@@ -39,8 +39,18 @@ jobs:
           hugo-version: '0.149.0'
           extended: true
 
+      - name: Compute baseURL for project page
+        shell: bash
+        run: |
+          OWNER_LC=${GITHUB_REPOSITORY_OWNER,,}
+          REPO_NAME=${GITHUB_REPOSITORY#*/}
+          echo "BASE_URL=https://${OWNER_LC}.github.io/${REPO_NAME}/" >> $GITHUB_ENV
+          echo "Using BASE_URL=$BASE_URL"
+
       - name: Build
-        run: hugo --minify -b https://frederick2313072.github.io/lively-aurora-web/
+        env:
+          HUGO_ENV: production
+        run: hugo --minify -b "$BASE_URL"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
