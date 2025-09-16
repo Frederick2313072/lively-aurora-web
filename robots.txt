@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://frederick2313072.github.io/lively-aurora-web/sitemap.xml
