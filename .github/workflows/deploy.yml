@@ -36,7 +36,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.149.0'
+          hugo-version: '0.150.0'
           extended: true
 
       - name: Compute baseURL for project page
@@ -58,3 +58,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
+          enable_jekyll: false
